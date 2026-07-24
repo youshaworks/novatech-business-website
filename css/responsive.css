@@ -1,0 +1,102 @@
+/* =========================
+   TABLETS (992px)
+========================= */
+
+@media (max-width: 992px) {
+
+    header {
+        padding: 20px 40px;
+    }
+
+    .services,
+    .about,
+    .why-us,
+    .portfolio,
+    .stats,
+    .testimonials {
+        padding: 80px 40px;
+    }
+
+    .service-container,
+    .why-container {
+        flex-wrap: wrap;
+    }
+
+    .card,
+    .why-card {
+        min-width: 280px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-text,
+    .about-image {
+        width: 100%;
+    }
+
+}
+
+/* =========================
+   MOBILE (768px)
+========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    .hero {
+        height: auto;
+        padding: 100px 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .services,
+    .about,
+    .why-us,
+    .portfolio,
+    .stats,
+    .testimonials {
+        padding: 60px 20px;
+    }
+
+    .service-container,
+    .why-container {
+        flex-direction: column;
+    }
+
+    .stats {
+        flex-direction: column;
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
